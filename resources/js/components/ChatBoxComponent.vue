@@ -1,4 +1,4 @@
- <template>
+<template>
   <div class="card-body">
     <div id="chatbox" v-if="users">
         <dl v-for="message in messages" :key="message.id">
