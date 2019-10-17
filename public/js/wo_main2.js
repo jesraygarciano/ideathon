@@ -1,4 +1,4 @@
-$('.idea2').on('click', function() {
+$('.idea2').on('click', function () {
   var nickname = $(this).attr("nickname");
   var id =  $(this).attr("id");
   var userId = $(this).attr("user-id");
